@@ -43,7 +43,7 @@
 /* Main section */
 
 .main_sec {
-    height: 90vh;
+    height: 100vh;
     background-image: url("../images/background.png"), linear-gradient(45deg, #000000, #414040);
     background-position: center;
     background-size: cover;
@@ -144,6 +144,8 @@
 }
 
 .box_container {
+    width: 90%;
+    margin: auto;
     height: 400px;
     display: flex;
     justify-content: space-around;
